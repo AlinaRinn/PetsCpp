@@ -275,7 +275,7 @@ void anime1() {
 
 int main()
 {
-    std::thread thr_anime(anime1);
+    std::thread thr_anime(anime0);
     thr_anime.detach();
 
     //Large_Octa();
@@ -293,9 +293,9 @@ int main()
     //Stroi();
     //Sleep(2000);
 
-    //Chizick();
-    //Sleep(2000);
+    Chizick();
+    Sleep(2000);
 
-    //Smoke();
-    //Sleep(2000);
+    Smoke();
+    Sleep(2000);
 }
